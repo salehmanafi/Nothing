@@ -1,0 +1,12 @@
+~ Git Commands ~
+
+git --version ~ Version Git Nasb Shode Rooye System Ro Mige
+git ~ Dastoorate Marboot Be Git Ro Neshoonemoon Mide
+git init ~ Baraye Ma Ye Repository Empty Ijad Mikone
+git status ~ Ghadam Ha Va Kar Hayi Ke Anjam Dadim Ro Neshoon Mide
+git add "X" ~ In Dastoor Chikar Mikone? Vaghty Ma Dastoor 'git status' Ro Mizanim, Be Ma Mige Ke Bayad File Hayi Ke To Folder Dari Ro Add Koni Ta Betoone Stats Ro Neshoon Bede, Baraye Hamin Ma Ba Estefade Az In Dastoor In Karo Mikonim! Nokte Mohem Injast Ke Shoma Aval Bayad File Hatoon Ro Ba Estefade Az In Dastoor Be Stage Add Konin Va Baad Committ Konin
+git add . ~ In Tammam Folder, File, Va ... Ro Ba Ham Add Mikone Be Stage
+git commit -h ~ Help Mide Dige
+git commit -X ~ Khob Inja Moheme, Chikar Mikonim Darim Commit Mikonim, Yani Ye Seri Tozihat Dar Mored Taghirati Ke Anjam Shode Midim
+git commit -m "X" ~ Message Ke Mikhaym To Commit Sabt Beshe Ro Behesh Midim 
+git commit -a ~ Baad Az Inke To File Hamoon Taghirat Ijad Kardim, 2 Ta Rah Darim Baraye Sabteshoon Aval Biaim 'git add .' Konim Ya Na Mostaghiman 'git commit -a' Bezanim Va Taghirat Ro Sabt Konim Age Doost Dashtim Mitoonim Message Ham Bezarim Barash
