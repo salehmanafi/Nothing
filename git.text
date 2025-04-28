@@ -1,5 +1,6 @@
 ~ Git Commands ~
 
+( A )
 git --version ~ Version Git Nasb Shode Rooye System Ro Mige
 git ~ Dastoorate Marboot Be Git Ro Neshoonemoon Mide
 git init ~ Baraye Ma Ye Repository Empty Ijad Mikone
@@ -10,3 +11,51 @@ git commit -h ~ Help Mide Dige
 git commit -X ~ Khob Inja Moheme, Chikar Mikonim Darim Commit Mikonim, Yani Ye Seri Tozihat Dar Mored Taghirati Ke Anjam Shode Midim
 git commit -m "X" ~ Message Ke Mikhaym To Commit Sabt Beshe Ro Behesh Midim 
 git commit -a ~ Baad Az Inke To File Hamoon Taghirat Ijad Kardim, 2 Ta Rah Darim Baraye Sabteshoon Aval Biaim 'git add .' Konim Ya Na Mostaghiman 'git commit -a' Bezanim Va Taghirat Ro Sabt Konim Age Doost Dashtim Mitoonim Message Ham Bezarim Barash
+
+( B )
+git rm --cached <file> ~ In Dastoor Chikar Mikone Ke Cach Ro Park Mikone Va Stage Ro Ham Clear Mikone, Yani Zamani Ke Esme File Ya Folder Ro Vared Konid Oon Ro Unstage Mikone
+git rm --cached -r . ~ In Dasoor Hamaro Unstage Mikone 
+git diff ~ Tamame Taghirati Ke Anjam Dadim Ro Neshoon Mide, Farghesh Ba Status Chie? Ine Ke Oon Faghat Migoft Kodom File Ha Taghir Kardan, In Daghighan Mige Ke Che Chiz Hayi Taghir Kardan
+git log ~ Commit Hayi Ke Anjam Shode Ro Neshoon Mide
+git log --oneline ~ Commit Haye Anjam Shode Ro To Ye Khat Neshoon Mide!
+git log -2 --oneline ~ To Inja Masalan Behesh Goftim Ke Faghat 2 Ta Commite Akhari Ke Anjam Shode Ro Neshoon Bede, Mitoonim Ba Adad Dadan Moshakhas Konim Dige Ez'e
+git log -p ~ Miad Taghirati Ke Too Har Commit Rokh Dade Ro Be Soorate Kamel Neshoon Mide
+
+( C )
+git checkout -- <file> or git checkout -- . ~ In Dastoor Kheyli Karbordi Va Moheme, Chera? Bebin Karbordesh Ine Ke Shoma Masalan Ye Serie Taghirat Ijad Karde Vali Hanooz Oonaro Stage Ya Commit Nakardi, Mitoony Ba Estefade Az In Dastoor Bargardi Be Halate Ghabli Ke Hanooz Taghirati Ijad Nakarde Booodi! Khob Kheyli Khafane Dige 
+git reset HEAD <file> or git reset HEAD . ~ Bebin In Ye Kocholo Fargh Dare, Bedin Shekle Ke To Ye Serie Taghirat Anjam Dadi Va Baadesh Oonaro add Kardi Vali Hala Motevajeh Shodi Ke Karet Eshtebah Shode Va Nemikhay Commit Koni, Pas Miay Va Ba Estefade Az In Dastoor Unstage Mikony Va Halast Ke Mitoony Az Dastoor 'checkout' Estefade Koni
+git reset <Commit ID> ~ Chikar Mikone? ID Commit Ro Behesh Midi Va Barmigarde Be Oon Commit Yani Karayi Ke Roo Oon Commit Kardi Ro Behet Namayesh Mide, Yani Kolan Baraye Jabejaei Beyn Commit Ha Estefade Mishe, Che Bekhay Bargardi Be Commit Haye Ghabli Che Bekhay Bargardi Be Commit Haye Bargardi
+git reset --hard <Commit ID> ~ Farghesh Ba Reset Chie? Farghesh Ine Ke Vaghty Shoma Az Reset Khali Estefade Mikonid, Vaghty Masalan Be Yek Commit Back Midid, File Hayi Ke Ghablan Too On Commit Naboodan Hazf Nemishan! Vali Age Az Reset Hard Estefade Konin File Hayi Ke Ta Oon Zaman Ijad Nashode Boodan Be Fuck Miran! Va Hata Reset Hard Dige Niaz Be Checkout Ham Nadare, Baraye Raft o Bargasht Beyn Commit Ha Mitoonin Dobare Az Reset Hard Estefade Konin
+
+(D)
+git branch --help ~ CMD Haye Marboot Be Branch Ro Mige
+git branch <Your Favorite Name> ~ Injoory Mitooni Ye Branch (Shakhe) Ijad Koni
+git checkout -b <Your Favorite Name> ~ Ravashe Dige Baraye Ijad Branch Ine, Ham Ijad Mikone Va Ham Mostaghim Switch Mikone Roosh
+git branch -a ~ Branch Hayi Ke Vojod Dare Ro Namayesh Mide
+git checkout <Branch Name> ~ Injoory Mitoony Ro Branchi Ke Mikhay Switch Koni!
+git branch -d <Branch Name> ~ Baraye Delete Kardan Branch Mored Nazar Estefade Mishe
+git merge <Branch Name> ~ In Kheyli Moheme, Bebin Farz Kon To 2 Ta Version Dari Baraye Websiti Ke Zadi, Hala To Ye Serie Taghiran Rooye V2 Anjam Dadi Va Mikhay Hala Hame Oon Taghirat Ro Rooye Branch Asli (master) Eamal Koni, Chikar Mikony, Aval  Miri Ro Branchi Ke Mikhay Taghirat Behesh Eamal Beshe Va Baad Az In Dastoor Estefade Mikony.
+git log --graph ~ Be Soorate Graph Neshoon Mide Ke Che Karayi Anjam Dadim
+
+(E)
+git stash --help ~ Command Hasho Mige
+git stash ~ Chikar Mikone? Bebin Masalan To Ye Serie Edit Ha Anjam Dadi Vali Nemikhay Ke Commit Koni. Az Ye Taraf Mikhay Ke Edit Hayi Ke Zadi Ye Jaye Movaghat Gharar Begire, Vaghty In Dastooro Bezani To Stash Save Mishan, Chize Jalebe Ke Vojod Dare Ine Ke Stash To Hame Branch Ha Vojod Dare Va Mishe Azash Estefade Kard
+git stash list ~ Stash Hayi Ke Dari Ro List Mikone Barat
+git stash save "Message" ~ Injoory Mitoonin Stash Khodetoon Ro Save Konin, Dar Vaghe Farghe Khasi Ba git stash Khali Nadare
+git stash drop <StashID> ~ Age Khasty Stashi Ke Ijad Kardi Ro Hazf Koni Bayad Az In Dastoor Estefade Koni
+git stash show -p <StashID> ~ Chikar Mikone? Taghiraty Ke Rooye Oon Stash Mored Nazar Anjam Shode Ro Behemoon Neshoon Mide
+git stash apply <StashID> ~ In Miad Taghirati Ke Too Stash Dashtim Ro Eamal Mikone Vali Age Bazam List Stash Haro Negah Konid Motevajeh Mishin Ke Hanooz To List Gharar Dare Va Bayad Baghie Kar Haro Khodemoon Anjam Bedim
+git stash pop <StashID> ~ In Daghighan Mesl Apply Amal Mikone, Vali Khob Behtare, Chin Khodesh Be Soorate Automatic Miad Va Az Stash Ha Deletesh Mikone, Va Ma Faghat Bayad Commit'esh Konim
+
+(F)
+touch .gitignore ~ Baraye Be Vojod Omadan File gitignore Dar Folder Mored Nazar
+
+
+
+
+
+
+
+
+
+
