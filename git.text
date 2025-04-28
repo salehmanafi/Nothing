@@ -49,7 +49,12 @@ git stash pop <StashID> ~ In Daghighan Mesl Apply Amal Mikone, Vali Khob Behtare
 
 (F)
 touch .gitignore ~ Baraye Be Vojod Omadan File gitignore Dar Folder Mored Nazar ( Kar Haye Marboot Be gitignore To File .gitignore Ghabele Moshahede Ast )
+( Too File .gitignore 3 Ta Khat Mibini Ke Alan Behet Tozih Midam || Line 1 = Goftam In Folder Ro Dige Donbal Nkn || Line 2 = Goftam Ke Har File Ke Pasvand XLSX Dare Ro Donbal Nkn || Line 3 = Goftam Ke Hame Oon Karaye Ghabl Ro Anjam Bede Vali In File Ke Behet Dadam Ro Donbal Kon )
 
+(G)
+git remote add origin https://github.com/salehmanafi/Nothing.git ~ Baraye Vasl Kardane Repository Be github
+git push -u origin master ~ Load Mikone Rooye github
+git pull ~ Az Github Load Mikone Ro Repository
 
 
 
