@@ -48,7 +48,7 @@ git stash apply <StashID> ~ In Miad Taghirati Ke Too Stash Dashtim Ro Eamal Miko
 git stash pop <StashID> ~ In Daghighan Mesl Apply Amal Mikone, Vali Khob Behtare, Chin Khodesh Be Soorate Automatic Miad Va Az Stash Ha Deletesh Mikone, Va Ma Faghat Bayad Commit'esh Konim
 
 (F)
-touch .gitignore ~ Baraye Be Vojod Omadan File gitignore Dar Folder Mored Nazar
+touch .gitignore ~ Baraye Be Vojod Omadan File gitignore Dar Folder Mored Nazar ( Kar Haye Marboot Be gitignore To File .gitignore Ghabele Moshahede Ast )
 
 
 
